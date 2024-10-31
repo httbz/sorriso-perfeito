@@ -1,75 +1,100 @@
-/*Azul claro (#A9D6E5), branco (#FFFFFF), cinza claro
+/* Azul claro (#A9D6E5), branco (#FFFFFF), cinza claro
 (#F3F4F6), e verde suave (#90BE6D).*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Lato", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-}
 
-footer {
-    background-color: #A9D6E5;
-    height: 70px;
-    align-content: center;
+* {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
-    display: flex;
-    background-color: #A9D6E5;
-    align-content: center;
+  background-color: #a9d6e5;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #a9d6e5;
+  display: flex;
+  height: 60px;
 }
 
 #link-header {
-    margin-top: 35px;
-    margin-left: 25px;
-    margin-right: 25px;
-    text-decoration: none;
-    color: #2b2b2b;
+  color: #1e1e1e;
+  text-decoration: none;
+  margin-top: 18px;
+  margin-left: 55px;
+  margin-right: 55px;
 }
 
 #link-header:active {
-    opacity: 10%;
-}
-
-#img-small {
-    width: 24px;
-    height: 24px;
+  opacity: 25%;
 }
 
 #link-footer {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 18px;
-    text-decoration: none;
-    color: #2b2b2b;
+  color: #1e1e1e;
+  text-decoration: none;
+  margin-top: 18px;
+  margin-left: 55px;
+  margin-right: 55px;
 }
 
 #link-footer:active {
-    opacity: 10%;
+  opacity: 25%;
 }
 
-#logo {
-    margin-left: 40px;
-    margin-top: 18px;
-    margin-bottom: 18px;
+#small-img{
+    width: 22px;
+    height: 22px;
+}
+#home {
+    background-image: url(../assets/img/sorriso.jpg);
+    background-size: cover;
+    height: 600px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
 }
 
-#box-group {
+#servicos{
+    background-color: green;
+    height: 600px;
+}
+
+#galeria{
+    background-color: yellow;
+    height: 600px;
+}
+
+#contato{
+    background-color: red;
+    height: 600px;
+}
+
+#box-group{
     display: flex;
     flex-direction: row;
 }
 
-#box {
-    text-align: center;
-    margin-top: 355px;
+#box{
+    margin-top: 400px;
     opacity: 70%;
-    background-color: wheat;
-    width: 295px;
-    height: 245px;
-    align-content: center;
-    justify-content: center;
     display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: wheat;
+    height: 200px;
+    width: 350px;
+    text-align: center;
+}
+
+#box-text{
+    margin-top: 70px;
+    font-weight: 600;
+    font-size: 55px;
 }

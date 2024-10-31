@@ -10,6 +10,7 @@
             href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
         <header>
@@ -22,20 +23,41 @@
 
         <section id="home">
                 <div id="box-group">
-                    <div id="box" style="border-radius: 5px 0px 0px 5px;">
-                        <p id="box-text">+ Saúde</p>
+                    <div id="home-box" style="border-radius: 5px 0px 0px 5px;">
+                        <p id="home-box-text">+ Saúde</p>
                     </div>
-                    <div id="box" style="background-color: antiquewhite; border-radius: 0px;">
-                        <p id="box-text">+ Autoestima</p>
+                    <div id="home-box" style="background-color: #5ec2e4; border-radius: 0px;">
+                        <p id="home-box-text">+ Autoestima</p>
                     </div>
-                    <div id="box"  style="border-radius: 0px 5px 5px 0px;">
-                        <p id="box-text">+ Cuidados</p>
+                    <div id="home-box"  style="border-radius: 0px 5px 5px 0px;">
+                        <p id="home-box-text">+ Cuidados</p>
                     </div>
                 </div>
         </section>
 
-        <section id="servicos">
-
+        <section id="servicos" data-aos="zoom-in" data-aos-duration="1000">
+            <div id="box-group">
+                <div id="servicos-box">
+                    <div id="servicos-box-title">
+                        <h1 id="servicos-box-text">Implante</h1>
+                    </div>
+                </div>
+                <div id="servicos-box">
+                    <div id="servicos-box-title">
+                        <h1 id="servicos-box-text">Gengivoplastia</h1>
+                    </div>
+                </div>
+                <div id="servicos-box">
+                    <div id="servicos-box-title">
+                        <h1 id="servicos-box-text">Invisalign</h1>
+                    </div>
+                </div>
+                <div id="servicos-box">
+                    <div id="servicos-box-title">
+                        <h1 id="servicos-box-text">Extração</h1>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="galeria">
@@ -53,5 +75,9 @@
             <a href id="link-header">✉sorriso.perfeito@gmail.com</a>
         </footer>
 
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>
