@@ -1,0 +1,75 @@
+/*Azul claro (#A9D6E5), branco (#FFFFFF), cinza claro
+(#F3F4F6), e verde suave (#90BE6D).*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #A9D6E5;
+    height: 70px;
+    align-content: center;
+}
+
+header {
+    display: flex;
+    background-color: #A9D6E5;
+    align-content: center;
+}
+
+#link-header {
+    margin-top: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+#link-header:active {
+    opacity: 10%;
+}
+
+#img-small {
+    width: 24px;
+    height: 24px;
+}
+
+#link-footer {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 18px;
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+#link-footer:active {
+    opacity: 10%;
+}
+
+#logo {
+    margin-left: 40px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+#box-group {
+    display: flex;
+    flex-direction: row;
+}
+
+#box {
+    text-align: center;
+    margin-top: 355px;
+    opacity: 70%;
+    background-color: wheat;
+    width: 295px;
+    height: 245px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
