@@ -6,9 +6,7 @@
         <title>Sorriso Perfeito</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed&display=swap"
-            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
@@ -21,10 +19,13 @@
             <a href="#depoimento" id="link-header">Depoimentos</a>
             <a href="#contato" id="link-header">Contato</a>
         </header>
-
-        <section id="home">
+            <section id="home">
+                <div id="welcome-box">
+                    <h2 id="secondary-welcome-title">O seu novo</h2>
+                    <h1 id="welcome-title">"Sorriso Perfeito"</h1>
+                </div>
                 <div id="box-group">
-                    <div id="home-box" style="border-radius: 5px 0px 0px 5px;">
+                    <div id="home-box" style="border-radius: 5px 0px 0px 5px;    margin-left: 205px;">
                         <p id="home-box-text">+ Saúde</p>
                     </div>
                     <div id="home-box" style="background-color: #5ec2e4; border-radius: 0px;">
@@ -33,8 +34,8 @@
                     <div id="home-box"  style="border-radius: 0px 5px 5px 0px;">
                         <p id="home-box-text">+ Cuidados</p>
                     </div>
-                </div>
         </section>
+        </div>
 
         <section id="servicos">
             <div id="box-group"  data-aos="fade-up" data-aos-duration="1000">
@@ -106,29 +107,34 @@
             </div>
         </section>
 
-        <section id="depoimento">
-
-            <div id="box-group" style="margin-top: 70px;">
+        <section id="depoimento" style="margin-left: -25px;">
+            <div id="box-group" style="margin-top: 50px;">
                 <div class="card-carousel">
+                    <p id="box1" style="margin-left: 645px; font-size: 70px;">Depoimentos</p>
                   <div class="card" id="1">
                     <div class="image-container"></div>
-                    <p>1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                    <h1>Janderson Oliveira</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non cupiditate delectus suscipit voluptate iste exercitationem! Dolorum consequuntur exercitationem iste laudantium mollitia. At facilis, sunt dicta rem sit alias veniam, aperiam repellendus dolor maxime doloribus exercitationem quae ea, corporis debitis facere dolorem. Suscipit eveniet voluptatem adipisci quam, temporibus omnis inventore tempora?</p>
                   </div>
                   <div class="card" id="2">
                     <div class="image-container"></div>
-                    <p>2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                    <h1>João Corrêa</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non cupiditate delectus suscipit voluptate iste exercitationem! Dolorum consequuntur exercitationem iste laudantium mollitia. At facilis, sunt dicta rem sit alias veniam, aperiam repellendus dolor maxime doloribus exercitationem quae ea, corporis debitis facere dolorem. Suscipit eveniet voluptatem adipisci quam, temporibus omnis inventore tempora?</p>
                   </div>
                   <div class="card" id="3">
                     <div class="image-container"></div>
-                    <p>3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                    <h1>Marcos Costa</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non cupiditate delectus suscipit voluptate iste exercitationem! Dolorum consequuntur exercitationem iste laudantium mollitia. At facilis, sunt dicta rem sit alias veniam, aperiam repellendus dolor maxime doloribus exercitationem quae ea, corporis debitis facere dolorem. Suscipit eveniet voluptatem adipisci quam, temporibus omnis inventore tempora?</p>
                   </div>  
                   <div class="card" id="4">
                     <div class="image-container"></div>
-                    <p>4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                    <h1>Eliane Moura</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non cupiditate delectus suscipit voluptate iste exercitationem! Dolorum consequuntur exercitationem iste laudantium mollitia. At facilis, sunt dicta rem sit alias veniam, aperiam repellendus dolor maxime doloribus exercitationem quae ea, corporis debitis facere dolorem. Suscipit eveniet voluptatem adipisci quam, temporibus omnis inventore tempora?</p>
                   </div>
                   <div class="card" id="5">
                     <div class="image-container"></div>
-                    <p>5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                    <h1>Rafael Luiz dos Santos</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non cupiditate delectus suscipit voluptate iste exercitationem! Dolorum consequuntur exercitationem iste laudantium mollitia. At facilis, sunt dicta rem sit alias veniam, aperiam repellendus dolor maxime doloribus exercitationem quae ea, corporis debitis facere dolorem. Suscipit eveniet voluptatem adipisci quam, temporibus omnis inventore tempora?</p>
                   </div>
                 </div>
                 <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
@@ -137,6 +143,26 @@
 
         <section id="contato">
 
+                <form action="submit">
+                    <div id="row">
+                        <div id="form-box">
+                            <p>Nome:</p>
+                            <input type="text" id="caixa-texto" placeholder="Informe o seu Nome...">
+                            <p>E-mail:</p>
+                            <input type="text" id="caixa-texto" placeholder="Informe o seu E-mail...">
+                        </div>
+                        <div id="form-box">
+                            <p>Nº de Telefone/Whatsapp:</p>
+                            <input type="text" id="caixa-texto" placeholder="Informe o seu Número para Contato...">
+                            <p>Assunto:</p>
+                            <input type="text" id="caixa-texto" placeholder="Informe o Assunto do Contato...">
+                        </div>
+                    </div>
+                    <div id="form-box">
+                        <p>Mensagem:</p>
+                        <textarea name="mensagem" id="caixa-texto-msg" cols="5" rows="20"></textarea>
+                    </div>
+                </form>
         </section>
 
         <footer>
