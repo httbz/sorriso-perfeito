@@ -14,11 +14,12 @@
     </head>
     <body>
         <header>
-            <img src="./assets/img/logo_placehold.png" alt="logotipo">
-            <a href id="link-header" style="margin-left: 500px;">Home</a>
-            <a href id="link-header">Serviços</a>
-            <a href id="link-header">Galeria de Sorrisos</a>
-            <a href id="link-header">Contato</a>
+            <img src="./assets/img/logo_placehold.png" alt="logotipo" style="margin-left: -100px;">
+            <a href="#home" id="link-header" style="margin-left: 600px;">Home</a>
+            <a href="#servicos" id="link-header">Serviços</a>
+            <a href="#galeria" id="link-header">Galeria de Sorrisos</a>
+            <a href="#depoimento" id="link-header">Depoimentos</a>
+            <a href="#contato" id="link-header">Contato</a>
         </header>
 
         <section id="home">
@@ -35,33 +36,103 @@
                 </div>
         </section>
 
-        <section id="servicos" data-aos="zoom-in" data-aos-duration="1000">
-            <div id="box-group">
-                <div id="servicos-box">
+        <section id="servicos">
+            <div id="box-group"  data-aos="fade-up" data-aos-duration="1000">
+                <div id="servicos-box" style="flex-direction: column;">
                     <div id="servicos-box-title">
                         <h1 id="servicos-box-text">Implante</h1>
                     </div>
+                    <p style="font-size: 24px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, ducimus nihil! Repellendus enim reprehenderit corporis ad natus esse, sint ullam voluptates sapiente veritatis suscipit quod?</p>
+                    <img src="./assets/img/implante.jpg" alt="Implante Dentário" id="serv-img">
                 </div>
-                <div id="servicos-box">
+                <div id="servicos-box"  style="flex-direction: column; margin-top: 100px;">
                     <div id="servicos-box-title">
                         <h1 id="servicos-box-text">Gengivoplastia</h1>
                     </div>
+                    <p style="font-size: 24px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo maxime quam natus obcaecati rerum molestiae. Nostrum, quam alias. Libero ad in officiis. Repudiandae, officiis consequatur!</p>
+                    <img src="./assets/img/gengivoplastia.jpg" alt="Gengivoplastia" id="serv-img">
                 </div>
-                <div id="servicos-box">
-                    <div id="servicos-box-title">
-                        <h1 id="servicos-box-text">Invisalign</h1>
-                    </div>
-                </div>
-                <div id="servicos-box">
+                <div id="servicos-box"  style="flex-direction: column; margin-top: 100px;">
                     <div id="servicos-box-title">
                         <h1 id="servicos-box-text">Extração</h1>
                     </div>
+                    <p style="font-size: 24px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo maxime quam natus obcaecati rerum molestiae. Nostrum, quam alias. Libero ad in officiis. Repudiandae, officiis consequatur!</p>
+                    <img src="./assets/img/extracao.png" alt="Extração Dentária" id="serv-img">
+                </div>
+                <div id="servicos-box" style="flex-direction: column;">
+                    <div id="servicos-box-title">
+                        <h1 id="servicos-box-text">Invisalign</h1>
+                    </div>
+                    <p style="font-size: 24px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, ducimus nihil! Repellendus enim reprehenderit corporis ad natus esse, sint ullam voluptates sapiente veritatis suscipit quod?</p>
+                    <img src="./assets/img/invisalign.jpg" alt="Invisalign" id="serv-img">
                 </div>
             </div>
         </section>
 
         <section id="galeria">
+            <div id="box-group" style="margin: 0px 12px 0px 12px;" data-aos="fade-left" data-aos-duration="1000">
+                <div id="img-box" src="./assets/img/gsorriso1.webp">
+                    <img src="./assets/img/gsorriso1.jpg" alt="" id="img">
+                </div>
+                <div id="img-box">
+                    <img src="./assets/img/gsorriso2.jpg" alt="" id="img">
+                </div>
+                <div id="img-box">
+                    <img src="./assets/img/gsorriso3.jpg" alt="" id="img">
+                </div>
+                <div id="img-box">
+                    <img src="./assets/img/gsorriso4.jpg" alt="" id="img">
+                </div>
+                <div id="img-box">
+                    <img src="./assets/img/gsorriso5.jpg" alt="" id="img">
+                </div>
+            </div>
+            <div id="box-group" style="margin: 0px 12px 0px 12px;" data-aos="fade-right" data-aos-duration="1000">
+                <div id="img-box">
+                    <img src="./assets/img/gsorriso6.jpg" alt="" id="img">
+                </div>
+                <div id="img-box">
+                    <img src="./assets/img/gsorriso7.jpeg" alt="" id="img">
+                </div>
+                <div id="img-box">
+                    <img src="./assets/img/gsorriso8.jpg" alt="" id="img">
+                </div>
+                <div id="img-box">
+                    <img src="./assets/img/gsorriso9.jpg" alt="" id="img">
+                </div>
+                <div id="img-box">
+                    <img src="./assets/img/gsorriso10.jpg" alt="" id="img">
+                </div>
+            </div>
+        </section>
 
+        <section id="depoimento">
+
+            <div id="box-group" style="margin-top: 70px;">
+                <div class="card-carousel">
+                  <div class="card" id="1">
+                    <div class="image-container"></div>
+                    <p>1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                  </div>
+                  <div class="card" id="2">
+                    <div class="image-container"></div>
+                    <p>2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                  </div>
+                  <div class="card" id="3">
+                    <div class="image-container"></div>
+                    <p>3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                  </div>  
+                  <div class="card" id="4">
+                    <div class="image-container"></div>
+                    <p>4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                  </div>
+                  <div class="card" id="5">
+                    <div class="image-container"></div>
+                    <p>5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, explicabo!</p>
+                  </div>
+                </div>
+                <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
+              </div>
         </section>
 
         <section id="contato">
@@ -76,8 +147,6 @@
         </footer>
 
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          AOS.init();
-        </script>
+        <script src="scripts/script.js"></script>
     </body>
 </html>
