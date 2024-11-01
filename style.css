@@ -1,0 +1,100 @@
+/* Azul claro (#A9D6E5), branco (#FFFFFF), cinza claro
+(#F3F4F6), e verde suave (#90BE6D).*/
+
+* {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-color: #a9d6e5;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #a9d6e5;
+  display: flex;
+  height: 60px;
+}
+
+#link-header {
+  color: #1e1e1e;
+  text-decoration: none;
+  margin-top: 18px;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+#link-header:active {
+  opacity: 25%;
+}
+
+#link-footer {
+  color: #1e1e1e;
+  text-decoration: none;
+  margin-top: 18px;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+#link-footer:active {
+  opacity: 25%;
+}
+
+#small-img{
+    width: 22px;
+    height: 22px;
+}
+#home {
+    background-image: url(../assets/img/sorriso.jpg);
+    background-size: cover;
+    height: 600px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+}
+
+#servicos{
+    background-color: green;
+    height: 600px;
+}
+
+#galeria{
+    background-color: yellow;
+    height: 600px;
+}
+
+#contato{
+    background-color: red;
+    height: 600px;
+}
+
+#box-group{
+    display: flex;
+    flex-direction: row;
+}
+
+#box{
+    margin-top: 400px;
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: wheat;
+    height: 200px;
+    width: 350px;
+    text-align: center;
+}
+
+#box-text{
+    margin-top: 70px;
+    font-weight: 600;
+    font-size: 55px;
+}
