@@ -1,2 +1,2 @@
 # sorriso-perfeito
- Landing Page para o consultório odontológio Sorriso Perfeito (projeto escolar)
+ Landing Page para o consultório odontológico Sorriso Perfeito (projeto escolar)
